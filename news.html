@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--  Sana Rafaqat
+      05/13/2019 -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>Marvel: The Avengers</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body background="images/background.jpg">
+<main>
+	<div id="container">
+	<!--Marvel Logo--> 
+	<header>
+		<a href="home.html"><img class="logo" alt="avengers" src="images/avenger_logo.png"></a>
+	</header>
+	<nav>
+	<ul>
+		<li><a href="home.html"><b>Home|</b></a></li>
+		<li><a href="avengers_origin.html"> <b>Avengers Origin|</b></a></li>
+		<li><a href="movies.html"><b>Movies|</b></a></li>
+		<li><a href="news.html"> <b>News|</b></a></li>
+		<li><a href="characters.html"><b>Characters|</b></a></li>
+		<li><a href="contact.html"><b>Contact Us|</b></a></li>
+		</ul>
+		</nav>
+		</div>
+				
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<iframe src="https://feed.mikle.com/widget/v2/109811/" height="407px" width="50%" class="fw-iframe" scrolling="no" frameborder="0"></iframe>
+	
+		
+		<div class="column" style="margin:1.8em;">
+		<a class="twitter-timeline" data-height="80%" href="https://twitter.com/Marvel?ref_src=twsrc%5Etfw">Tweets by Marvel</a> 
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+	
+	
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</main>
+	
+	<footer><div class="foot">
+		&copy; Copyright 2019. All Rights Reserved.<br>
+		<a href="mailto:marvel_avengers@gmail.com">marvel_avengers@gmial.com</a>
+	</div>
+	</footer>
+</body>
+</html>
+
+
